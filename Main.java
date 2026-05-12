@@ -8,5 +8,11 @@ public class Main
 	{
             summe = summe + i;
 	}        
+	
+	int mult = 0;
+	for(int i = 1; i<= 10;i++)
+	{
+	    mult = mult*i;
+        }
     }
 }
