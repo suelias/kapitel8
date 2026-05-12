@@ -1,4 +1,4 @@
-
+git 
 public class Main
 {
     public static void main(String args[]){
@@ -19,5 +19,6 @@ public class Main
         System.out.println("Mult = " + mult);
 
         //Coole Idee 1
+        //Coole Idee 2
     }
 }
