@@ -1,4 +1,7 @@
  
+
+import java.math.*;
+
 public class Main
 {
     public static void main(String args[]){
@@ -9,14 +12,15 @@ public class Main
             summe += i;
         }        
 
-        int mult = 0;
+        BigInteger mult = new BigInteger("1");
         for(int i = 1; i<= obereGrenze;i++)
         {
-            mult *= i;
+            BigInteger temp = new BigInteger(String.valueOf(i));
+            mult = mult.multiply(temp);
         }
 
         System.out.println("Summe = " + summe);
-        System.out.println("Mult = " + mult);
+        System.out.println("Mult = " + mult.toString());
 
         //Coole Idee 1
         //Coole Idee 2
