@@ -9,7 +9,7 @@ public class Main
             summe += i;
         }        
 
-        int mult = 0;
+        double mult = 0;
         for(int i = 1; i<= obereGrenze;i++)
         {
             mult *= i;
